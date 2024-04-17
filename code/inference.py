@@ -6,7 +6,7 @@ from ipywidgets import widgets
 import boto3
 import json
 
-bucket = '<bucket name>'
+bucket = 'sagemaker-us-east-1-827930657850'
 s3key = 'sentencetransformer/input/train.csv'
 
 def model_fn(model_dir):
